@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.colored-section {
+  background-color: #1c496e;
+  color: #fff;
+}
+
+.bg1 {
+  background-color: #edf0f3;
+}
+/* Containers */
+.container-fluid {
+  padding: 3% 12%;
+}
+
+/* Navbar  */
+.navbar {
+  padding: 5rem;
+}
+
+.navbar-brand {
+  font-size: 3.25rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 5px;
+  font-size: 26px;
+}
+
+#navbarTogglerDemo02 > ul > li:nth-child(n) > a {
+  color: #fff;
+}
+
+#navbarTogglerDemo02 > ul > li:nth-child(n) > a:hover {
+  color: rgb(226, 151, 52);
+}
+
+/* title  */
+#title {
+  background-image: url(./images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: #fff;
+  text-align: left;
+  padding: 30px;
+  max-width: 100%;
+  height: 850px;
+}
+
+#title .container-fluid {
+  padding: 5% 5% 25%;
+}
+
+.row .big-heading {
+  margin-left: 10%;
+}
+
+.big-heading span:hover {
+  color: rgb(226, 151, 52);
+}
+
+/* About */
+#about {
+  text-align: center;
+}
+
+.profile-image {
+  width: 80%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.profile-image:hover {
+  transform: scale(1.5);
+}
+
+/* Education */
+#education {
+  text-align: center;
+}
+
+/* Skills */
+#skills {
+  position: relative;
+}
+
+#skills > div > div > div:nth-child(n) {
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 1%;
+}
+
+.icon {
+  color: #2c2475;
+  margin-bottom: rem;
+}
+.icon:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+}
+.icon-html {
+  color: rgba(248, 165, 11, 0.829);
+}
+.icon-html:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+}
+.icon-css {
+  color: rgb(15, 15, 238);
+}
+.icon-css:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+}
+.icon-js {
+  color: rgb(240, 240, 12);
+}
+.icon-js:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+}
+.icon-react {
+  color: aqua;
+}
+.icon-react:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.icon-node {
+  color: rgb(11, 49, 11);
+}
+.icon-node:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+}
+.icon-sql {
+  color: gray;
+}
+.icon-sql:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+}
+.icon-git {
+  color: black;
+}
+.icon-git:hover {
+  color: #1417ee8a;
+  animation: shake 0.5s;
+}
+
+/* Testimonail */
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Projects */
+.projects-column {
+  padding: 2% 2%;
+}
+#projects > div > div:nth-child(n) > div > div.card-header > a > img {
+  max-width: 100%;
+  max-height: auto;
+  display: inline-block;
+  border-radius: 5%;
+}
+
+.project-text {
+  color: #1c496e;
+}
+.card:hover {
+  background: #fff;
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+}
+
+/* contact */
+#btn1 {
+  background: none;
+  color: #fff;
+  border: 3px solid;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#btn1:hover {
+  border-color: rgb(0, 193, 252);
+  color: white;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  border: 6px solid;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
