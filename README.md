@@ -1,2 +1,3 @@
 # mycv
-this is my personal website
+
+This is my personal website. I've been using Bootstrap, HTML, CSS.
