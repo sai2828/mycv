@@ -178,9 +178,17 @@ body {
 .icon-laravel {
   color: red;
 }
-.icon-laravel:hover  {
+.icon-laravel:hover {
   color: #1417ee8a;
   animation: shake 0.5s;
+}
+
+.flutter {
+  padding-bottom: 2rem;
+  background-color: #edf0f3;
+}
+.flutter-img {
+  color: transparent;
 }
 
 /* Testimonail */
@@ -215,6 +223,17 @@ body {
 }
 
 /* contact */
+#contact {
+  background-image: url(https://images.unsplash.com/photo-1547849164-6a2991fb49d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-heading > span {
+  font-size: 3rem;
+  color: #1c496e;
+}
+
 #btn1 {
   background: none;
   color: #fff;
