@@ -188,7 +188,10 @@ body {
   background-color: #edf0f3;
 }
 .flutter-img {
-  color: transparent;
+  opacity: 0.2;
+}
+.flutter-img:hover {
+  opacity: 1;
 }
 
 /* Testimonail */
